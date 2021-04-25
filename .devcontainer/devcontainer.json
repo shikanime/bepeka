@@ -1,0 +1,22 @@
+// 20210425144714
+// https://raw.githubusercontent.com/Shikanime/Shikanime/main/samples/python/.devcontainer/devcontainer.json
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "python.pythonPath": "/home/sakamoto/.asdf/installs/python/3.9.4/bin/python",
+    "python.linting.enabled": true
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter"
+  ],
+  "postCreateCommand": ".devcontainer/postCreateCommand.sh",
+  "mounts": [
+    "type=bind,src=${localEnv:HOME}/.ssh,dst=/home/sakamoto/.ssh,readonly"
+  ],
+  "remoteUser": "sakamoto"
+}
