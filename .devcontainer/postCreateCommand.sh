@@ -8,4 +8,4 @@ set -o pipefail
 asdf install
 
 # Install Python dependencies
-pip install -r requirements.txt -r requirements-dev.txt
+pip install -r requirements.txt
