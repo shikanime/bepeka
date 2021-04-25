@@ -12,7 +12,8 @@
   "extensions": [
     "ms-python.python",
     "ms-python.vscode-pylance",
-    "ms-toolsai.jupyter"
+    "ms-toolsai.jupyter",
+    "mechatroner.rainbow-csv"
   ],
   "postCreateCommand": ".devcontainer/postCreateCommand.sh",
   "mounts": [
