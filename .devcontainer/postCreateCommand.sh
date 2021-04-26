@@ -9,3 +9,6 @@ asdf install
 
 # Install Python dependencies
 pip install -r requirements.txt
+
+# Make sure symlink are correctly set
+asdf reshim
