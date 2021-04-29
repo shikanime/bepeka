@@ -1,6 +1,7 @@
 hentai==3.2.5
 matplotlib==3.4.1
-tensorflow==2.4.1
 seaborn==0.11.1
 numpy==1.19.3
+tensorflow==2.4.1
 tensorflow-hub==0.12.0
+tensorflow-transform==0.30.0
