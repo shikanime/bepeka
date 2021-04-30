@@ -11,4 +11,4 @@ asdf install
 asdf reshim
 
 # Install Python dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt -r requirements-dev.txt

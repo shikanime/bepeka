@@ -6,7 +6,6 @@
   },
   "settings": {
     "terminal.integrated.shell.linux": "/usr/bin/zsh",
-    "python.pythonPath": "/home/sakamoto/.asdf/installs/python/3.9.4/bin/python",
     "python.linting.enabled": true
   },
   "extensions": [
