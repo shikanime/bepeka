@@ -15,9 +15,9 @@
     "ms-toolsai.jupyter",
     "mechatroner.rainbow-csv"
   ],
-  "postCreateCommand": ".devcontainer/postCreateCommand.sh",
-  "mounts": [
-    "type=bind,src=${localEnv:HOME}/.ssh,dst=/home/sakamoto/.ssh,readonly"
+  "runArgs": [
+    "--gpus=all"
   ],
+  "postCreateCommand": ".devcontainer/postCreateCommand.sh",
   "remoteUser": "sakamoto"
 }
