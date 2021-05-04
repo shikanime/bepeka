@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/shikanime/shikanime/fluctlight:0.3.2-cuda-11.3.0-cudnn8-devel-ubuntu18.04 AS base
+FROM docker.pkg.github.com/shikanime/shikanime/fluctlight:0.3.2-cuda-11.3.0-cudnn8-devel-ubuntu18.04
 
 # Switch to root user for system installation
 USER root
@@ -13,8 +13,6 @@ RUN --mount=type=cache,target=/var/cache/apt \
 
 # Switch to user land
 USER sakamoto
-
-FROM base
 
 # Install ASDF Python plugin
 RUN asdf plugin-add python
