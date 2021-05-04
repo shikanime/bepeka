@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/shikanime/shikanime/catbox:tensorflow-2.4.1-gpu AS base
+FROM docker.pkg.github.com/shikanime/shikanime/fluctlight:0.3.2-cuda-11.3.0-cudnn8-devel-ubuntu18.04 AS base
 
 # Switch to root user for system installation
 USER root
