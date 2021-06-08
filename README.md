@@ -1,4 +1,4 @@
 # Bepeka Senpai
 
-An experimental sequential deep learning notebook using transfer learning to
-classify hentai by tags.
+A sequence classification experiment using transfer learning and recurrent
+neural networks to classify hentai by tags.
