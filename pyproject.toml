@@ -1,0 +1,26 @@
+[tool.poetry]
+authors = ["Shikanime Deva <deva.shikanime@protonmail.com>"]
+description = "Hentai manga genre classifier"
+license = "MIT"
+name = "bepeka"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+Pillow = "^8.4.0"
+apache-beam = "^2.33.0"
+hentai = "^3.2.9"
+matplotlib = "^3.4.3"
+python = "^3.8"
+scikit-learn = "^1.0.1"
+seaborn = "^0.11.2"
+tensorflow = "~2.5.1"
+tensorflow-hub = "^0.12.0"
+tqdm = "^4.62.3"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.2.1"
+tensorboard = "^2.7.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
