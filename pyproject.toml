@@ -2,11 +2,11 @@
 name = "bepeka"
 version = "0.4.0"
 description = "A sequence classification experiment using transfer learning and recurrent neural networks to classify hentai by tags"
-authors = ["Shikanime Deva <deva.shikanime@protonmail.com>"]
+authors = ["William Phetsinorath <william.phetsinorath@shikanime.studio>"]
 license = "AGPLv3"
 
 [tool.poetry.dependencies]
-python = "~3.9"
+python = "~3.10"
 hentai = "~3.2.9"
 matplotlib = "~3.5.1"
 seaborn = "~0.11.2"
@@ -24,3 +24,6 @@ tensorboard = "~2.8.0"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"

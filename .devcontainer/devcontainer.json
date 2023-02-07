@@ -1,0 +1,25 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/nix:1": {
+      "extraNixConfig": "experimental-features = nix-command flakes"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {},
+    "ghcr.io/christophermacgown/devcontainer-features/direnv:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jnoortheen.nix-ide",
+        "mkhl.direnv",
+        "yzhang.markdown-all-in-one",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "hbenl.vscode-test-explorer",
+        "SonarSource.sonarlint-vscode",
+        "bungcip.better-toml"
+      ]
+    }
+  },
+  "updateContentCommand": "direnv allow"
+}
